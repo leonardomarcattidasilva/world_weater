@@ -1,0 +1,52 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   display: grid;
+   grid-template-columns: 1fr;
+   min-height: 100vh;
+   grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
+   background-image: url('https://wmo.int/sites/default/files/styles/featured_image_x1_768x512/public/2023-12/thumbnails_5.jpg?h=d1cb525d&itok=aZ4qUGTc');
+   background-size: cover;
+}
+
+header{
+   background-color: rgba(50, 50, 50, 0.5);
+   color: white;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+header P {
+   text-indent: 8rem;
+   margin-top: -20px;
+}
+
+footer {
+   background-color: rgba(10, 10, 10, 0.5);
+   color: white;
+   text-align: center;
+}
+
+small{
+  font-size: 15px;
+  padding: 5px;
+}
