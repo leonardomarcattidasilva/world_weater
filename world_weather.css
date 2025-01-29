@@ -12,7 +12,7 @@ body {
    background-size: cover;
 }
 
-header{
+header {
    background-color: rgba(50, 50, 50, 0.5);
    color: white;
    display: flex;
@@ -22,10 +22,10 @@ header{
 }
 
 main {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
 }
 
 #form {
@@ -33,6 +33,18 @@ main {
    flex-flow: row nowrap;
    justify-content: center;
    align-items: center;
+}
+
+#weather_container {
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(74, 71, 71, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   padding: 15px;
+   color: rgb(0, 0, 0);
+   display: none;
+   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 header P {
@@ -46,7 +58,7 @@ footer {
    text-align: center;
 }
 
-small{
-  font-size: 15px;
-  padding: 5px;
+small {
+   font-size: 15px;
+   padding: 5px;
 }
